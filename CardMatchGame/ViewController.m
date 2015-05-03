@@ -14,6 +14,26 @@
 
 @implementation ViewController
 
+- (IBAction)touchCardButton:(UIButton *)sender {
+    
+    // flip the card to the back when touched
+    
+    //  if the length is not nil
+    if ([sender.currentTitle length]) {
+        [sender setBackgroundImage:[UIImage imageNamed:@"cardback"]
+                          forState:UIControlStateNormal];
+        [sender setTitle:@"" forState:UIControlStateNormal];
+        
+    } else {
+        [sender setBackgroundImage:[UIImage imageNamed:@"cardfront"]
+                          forState:UIControlStateNormal];
+        [sender setTitle:@"A♣︎" forState:UIControlStateNormal];
+    }
+
+}
+
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
