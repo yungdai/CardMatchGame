@@ -16,6 +16,7 @@
 		1AB123FC1AF6A73D00F4EDB2 /* CardMatchGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB123FB1AF6A73D00F4EDB2 /* CardMatchGameTests.m */; };
 		1AB124091AF6A7A000F4EDB2 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB124081AF6A7A000F4EDB2 /* Card.m */; };
 		1AB1240C1AF6AD7200F4EDB2 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1240B1AF6AD7200F4EDB2 /* Deck.m */; };
+		1AB1240F1AF6D99A00F4EDB2 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1240E1AF6D99A00F4EDB2 /* PlayingCard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		1AB124081AF6A7A000F4EDB2 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 		1AB1240A1AF6AD7200F4EDB2 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
 		1AB1240B1AF6AD7200F4EDB2 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		1AB1240D1AF6D99A00F4EDB2 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		1AB1240E1AF6D99A00F4EDB2 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +137,8 @@
 				1AB124081AF6A7A000F4EDB2 /* Card.m */,
 				1AB1240A1AF6AD7200F4EDB2 /* Deck.h */,
 				1AB1240B1AF6AD7200F4EDB2 /* Deck.m */,
+				1AB1240D1AF6D99A00F4EDB2 /* PlayingCard.h */,
+				1AB1240E1AF6D99A00F4EDB2 /* PlayingCard.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -245,6 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AB1240F1AF6D99A00F4EDB2 /* PlayingCard.m in Sources */,
 				1AB1240C1AF6AD7200F4EDB2 /* Deck.m in Sources */,
 				1AB123E81AF6A73D00F4EDB2 /* ViewController.m in Sources */,
 				1AB123E51AF6A73D00F4EDB2 /* AppDelegate.m in Sources */,
