@@ -11,11 +11,15 @@
     return [rankStrings[self.rank] stringByAppendingString:self.suit];
 }
 
-@synthesize suit = _suit;
+@synthesize suit = _suit;  // because we have to provide the setter and getter
 
+// create a class method
++ (NSArray *)valudSuits {
+    return @[@"♥",@"♦",@"♠",@"♣"];
+}
 
 - (void) setSuit:(NSString *)suit {
-    if ([@[@"♥",@"♦",@"♠",@"♣"] containsObject:suit]) {
+    if ([[PlayingCard valudSuits] containsObject:suit]) {
         _suit = suit;
 
     }
