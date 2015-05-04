@@ -9,4 +9,8 @@
 
 @property (nonatomic) NSUInteger rank;
 
+// making the validSuits method public
++ (NSArray *)validSuits;
++ (NSUInteger)maxRank;
+
 @end
